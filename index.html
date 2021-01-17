@@ -30,6 +30,7 @@
 <!--==============MAIN CSS FOR HOSTING PAGE=================-->
 
 <link href="css/hosting.css" rel="stylesheet" media="all">
+<link href="vendor/flipdown/flipdown.min.css" rel="stylesheet" media="all">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -40,6 +41,8 @@
 <!--==============Mordernizr =================-->
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.min.js"></script>
+
+<script src="vendor/flipdown/flipdown.min.js"></script>
 
 </head>
 <body id="home" data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
@@ -102,6 +105,18 @@
 <div class="container"> 
   <!--============== Main Features ==============-->
   
+  <div class="row FeatLayout">
+    <div class="col-md-5 Featimg"> <img src="images/public_sale.jpg" alt="feature" class="img-responsive center-block"></div>
+    <div class="col-md-7">
+      <h1>IEO & Listing on VinDAX Exchange</h1>
+      <p class="lead">Starting on 25th January at 8am UTC</p>
+      <p>Axentro is proud to announce that we will list our <b>AXNT</b> token on the <b>VinDAX exchange</b>. We will first lauch with an IEO (Initial Exchange Offering) fund raising event to kickstart phase 2 of the Axentro platform development.</p>
+      <p>For more information about the IEO please visit <a href="https://vindax.com/faq/axentro-axnt-public-sale-on-vindax-launchpad-on-january-25-2021-0800-am-utc.html">Vindax IEO with Axentro</a></p>
+      <div id="flipdown" class="flipdown"></div>
+    </div>
+  </div>
+
+
   <div class="row mainFeatures" id="features">
     <div class="col-sm-6 col-md-4">
       <div class="img-thumbnail"> <img src="images/cpu.svg" width="85" height="88" alt="secure">
@@ -454,6 +469,9 @@
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
+
+        var flipdown = new FlipDown(1611561600)
+        flipdown.start();
  
     });
 </script> 
