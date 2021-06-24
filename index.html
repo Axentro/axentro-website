@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177377112-1"></script>
@@ -11,7 +11,8 @@
   gtag('config', 'UA-177377112-1');
 </script>  
 <meta charset="utf-8">
-<title>Axentro blockchain platform</title>
+<title key="title">Axentro Blockchain Platform</title>
+<link rel="icon" href="favicon.ico" />
 
 <meta name="keywords" content="Axentro" />
 <meta name="description" content="An original, proof of work blockchain for decentralised apps">
@@ -42,6 +43,8 @@
 <!--==============Mordernizr =================-->
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.MultiLanguage.min.js"></script>
+
 
 <script src="vendor/flipdown/flipdown.min.js"></script>
 
@@ -60,15 +63,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#home">HOME</a></li>
-        <li><a href="#features">FEATURES</a></li>
-        <li class="hidden-sm"><a href="#wallet">WALLET</a></li>
-        <li class="hidden-sm"><a href="#explorer">EXPLORER</a></li>
-        <li class="hidden-sm"><a href="#team">TEAM</a></li>
-        <li class="hidden-sm"><a href="#news">NEWS</a></li>
-        <li class="hidden-sm"><a href="#community">COMMUNITY</a></li>
-        <li class="hidden-sm"><a href="#ambassador">AMBASSADOR</a></li>
-        <li class="hidden-sm"><a target="_blank" href="https://guide.axentro.io">GUIDE</a></li>
+        <li class="opli"><a class="active op" href="#home" key="home">HOME</a></li>
+        <li class="opli"><a class="op" href="#features"  key="features">FEATURES</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#wallet"  key="wallet">WALLET</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#explorer"  key="explorer">EXPLORER</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#team" key="team">TEAM</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#news" key="news">NEWS</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#community" key="community">COMMUNITY</a></li>
+        <li class="hidden-sm opli"><a class="op" href="#ambassador" key="ambassador">AMBASSADOR</a></li>
+        <li class="hidden-sm opli"><a class="op" target="_blank" href="https://guide.axentro.io" key="guide">GUIDE</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-language fa-lg" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="fr" onclick="setLanguage('fr')" key="fr">French</a></li>
+            <li><a href="#" class="en" onclick="setLanguage('en')" key="en">English</a></li>
+          </ul>
+        </li>
       </ul>
       </li>
       </ul>
@@ -84,11 +93,11 @@
   <!--==============Hero Unit=================-->
   <div class="container">
           <div class="hero-unit">
-            <h1>Axentro Blockchain Platform</h1>
-            <h3>An original, proof of work Blockchain for decentralised Apps</h3>
+            <h1 key="title">Axentro Blockchain Platform</h1>
+            <h3 key="subtitle">An original, proof of work Blockchain for decentralised Apps</h3>
             <div class="slider-actions text-center">
-              <a href="https://t.me/axentro" target="_blank" class="btn btn-success btn-lg">Chat on Telegram </a>
-              <a href="/axentro_whitepaper.pdf" target="_blank" class="btn btn-primary btn-lg">Read our Whitepaper </a> 
+              <a href="https://t.me/axentro" target="_blank" class="btn btn-success btn-lg" key="chat_telegram">Chat on Telegram </a>
+              <a href="/axentro_whitepaper.pdf" target="_blank" class="btn btn-primary btn-lg" key="read_white_paper">Read our Whitepaper </a> 
             </div>
             <div>
               <br/>
@@ -117,24 +126,24 @@
     <div class="col-sm-6 col-md-4">
       <div class="img-thumbnail"> <img src="images/cpu.svg" width="85" height="88" alt="secure">
         <div class="caption">
-          <h4>CPU only mining</h4>
-          <p>We want everyone to benefit from mining and not just those who can afford expensive mining rigs.</p>
+          <h4 key="cpu_only_mining">CPU only mining</h4>
+          <p key="cpu_only_desc">We want everyone to benefit from mining and not just those who can afford expensive mining rigs.</p>
         </div>
       </div>
     </div>
     <div class="col-sm-6 col-md-4">
       <div class="img-thumbnail"> <img src="images/circuit.svg" width="85" height="88" alt="secure">
         <div class="caption">
-          <h4>Distributed rewards system</h4>
-          <p>Anyone mining anywhere on the network gets a share of the rewards.</p>
+          <h4 key="distributed_rewards_system">Distributed rewards system</h4>
+          <p key="distributed_rewards_desc">Anyone mining anywhere on the network gets a share of the rewards.</p>
         </div>
       </div>
     </div>
     <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
       <div class="img-thumbnail"> <img src="images/wallet.svg" width="85" height="88" alt="secure">
         <div class="caption">
-          <h4>Human readable addresses</h4>
-          <p>Optionally aquire a human readable address which is much eaiser to remember and use.</p>
+          <h4 key="human_readable_addresses">Human readable addresses</h4>
+          <p key="human_readable_desc">Optionally aquire a human readable address which is much eaiser to remember and use.</p>
         </div>
       </div>
     </div>
@@ -144,38 +153,38 @@
   
   <div class="row PageHead">
     <div class="col-md-12">
-      <h1>Features</h1>
-      <h3>Axentro has several really great features built into the core blockchain</h3>
+      <h1 key="features">Features</h1>
+      <h3 key="features_desc">Axentro has several really great features built into the core blockchain</h3>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-6 features"> <img src="images/app.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Decentralised app platform</h4>
-      <p>We want to be the go to platform for developing dApps. We will provide a developer portal, tools and tutorials covering everthing needed to get started building a range of dApps.</p>
+      <h4 key="decentralised_app_platform">Decentralised app platform</h4>
+      <p key="decentraised_app_desc">We want to be the go to platform for developing dApps. We will provide a developer portal, tools and tutorials covering everthing needed to get started building a range of dApps.</p>
     </div>
     <div class="col-sm-6 features"> <img src="images/shopping-cart.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Decentralised app store</h4>
-      <p>The dApp store will be a one stop location to find new dApps that people have built on the platform. Similar to other popular app stores it will have reviews, comments and ratings.</p>
+      <h4 key="decentralised_app_store">Decentralised app store</h4>
+      <p key="decentralised_app_desc">The dApp store will be a one stop location to find new dApps that people have built on the platform. Similar to other popular app stores it will have reviews, comments and ratings.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-6 features"> <img src="images/message.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Integrated wallet & chat</h4>
-      <p>Cross platform desktop light wallet with a built in secure chat capability. Secure chat will also permit wallet functionality such as checking balances and sending transactions.</p>
+      <h4 key="integrated_wallet_chat">Integrated wallet & chat</h4>
+      <p key="integrated_wallet_desc">Cross platform desktop light wallet with a built in secure chat capability. Secure chat will also permit wallet functionality such as checking balances and sending transactions.</p>
     </div>
     <div class="col-sm-6 features"> <img src="images/profile.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Social media integration</h4>
-      <p>We will provide a set of integrations for well known social media and chat platforms to provide similar but more restricted wallet functionality within the chat.</p>
+      <h4 key="social_media_integration">Social media integration</h4>
+      <p key="social_media_desc">We will provide a set of integrations for well known social media and chat platforms to provide similar but more restricted wallet functionality within the chat.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-6 features"> <img src="images/credit-card.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Payments hub</h4>
-      <p>This will provide dApp builders with the capability to add shopping baskets, stores and simple payment plugins to the dApp to support taking payment in both the default AXNT token as well as user defined tokens.</p>
+      <h4 key="payment_hub">Payments hub</h4>
+      <p key="payment_hub_desc">This will provide dApp builders with the capability to add shopping baskets, stores and simple payment plugins to the dApp to support taking payment in both the default AXNT token as well as user defined tokens.</p>
     </div>
     <div class="col-sm-6 features"> <img src="images/exchange.svg" width="85" height="88" alt="icon" class="img-responsive">
-      <h4>Crypto exchange</h4>
-      <p>We intend to build a crypto exchange which in phase 1 will facilitate exchange of user defined tokens with the default AXNT token. In later phases more functionality will be added.</p>
+      <h4 key="crypto_exchange">Crypto exchange</h4>
+      <p key="crypto_exchange_desc">We intend to build a crypto exchange which in phase 1 will facilitate exchange of user defined tokens with the default AXNT token. In later phases more functionality will be added.</p>
     </div>
   </div>
   
@@ -189,14 +198,14 @@
   <div class="row FeatLayout">
     <div class="col-md-5 Featimg"> <img src="images/wallet-image.png" alt="feature" class="img-responsive center-block"></div>
     <div class="col-md-7">
-      <h1>Desktop wallet</h1>
-      <p class="lead" style="color:white;">Download our cross platform desktop wallet</p>
-      <p style="color:white;"><a href="https://dl.todesktop.com/2009086cc6q06bv" class="btn btn-info btn-lg" download>Download Wallet</a></p>
+      <h1 key="desktop_wallet">Desktop wallet</h1>
+      <p key="desktop_wallet_p" class="lead" style="color:white;">Download our cross platform desktop wallet</p>
+      <p style="color:white;"><a key="desktop_wallet_button"  href="https://dl.todesktop.com/2009086cc6q06bv" class="btn btn-info btn-lg" download>Download Wallet</a></p>
       <ul class="ticklist" style="color:white;">
-        <li>Cross platform desktop wallet</li>
-        <li>Regular updates with new features</li>
-        <li>Get a human readable address</li>
-        <li>Send and receive tokens</li>
+        <li key="wallet_features_1">Cross platform desktop wallet</li>
+        <li key="wallet_features_2">Regular updates with new features</li>
+        <li key="wallet_features_3">Get a human readable address</li>
+        <li key="wallet_features_4">Send and receive tokens</li>
       </ul>
     </div>
   </div>
@@ -209,15 +218,15 @@
  <!--============== Team ==============-->
  <div class="row PageHead">
   <div class="col-md-12">
-    <h1>Team</h1>
-    <h3>We are highly experienced professional developers. The team is distributed across UK, USA, Europe and Israel.</h3>
+    <h1 key="team">Team</h1>
+    <h3 key="team_desc">We are highly experienced professional developers. The team is distributed across UK, USA, Europe and Israel.</h3>
   </div>
 </div>
 <div class="row Testimonials">
   <div class="col-sm-6 col-md-4 tm-data">
     <div class="img-thumbnail"> <img src="images/kingsley.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>Founder & lead developer. Highly skilled with decades of experience. Expert in blockchain technology.</p>
+        <p key="team_member_1">Founder & lead developer. Highly skilled with decades of experience. Expert in blockchain technology.</p>
         <h5>Kingsley Hendrickse</h5>
       </div>
     </div>
@@ -225,7 +234,7 @@
   <div class="col-sm-6 col-md-4 tm-data">
     <div class="img-thumbnail"> <img src="images/aaron.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>Well rounded versitile developer. Team leader, coach and mentor. Invaluable when working across many complex technologies.</p>
+        <p key="team_member_2">Well rounded versitile developer. Team leader, coach and mentor. Invaluable when working across many complex technologies.</p>
         <h5>Aaron Bronow</h5>
       </div>
     </div>
@@ -233,7 +242,7 @@
   <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0 tm-data">
     <div class="img-thumbnail"> <img src="images/manuel.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>Creative artist and expert in 2D graphics. Skilled in Animation, Design, and Multimedia with years of experience.</p>
+        <p key="team_member_3">Creative artist and expert in 2D graphics. Skilled in Animation, Design, and Multimedia with years of experience.</p>
         <h5>Manuel Berja</h5>
       </div>
     </div>
@@ -243,7 +252,7 @@
   <div class="col-sm-6 col-md-4 tm-data">
     <div class="img-thumbnail"> <img src="images/christian.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>System developer, back-end & devops. Master of distributed systems and programming language paradigms.</p>
+        <p key="team_member_4">System developer, back-end & devops. Master of distributed systems and programming language paradigms.</p>
         <h5>Christian Kakesa</h5>
       </div>
     </div>
@@ -251,7 +260,7 @@
   <div class="col-sm-6 col-md-4 tm-data">
     <div class="img-thumbnail"> <img src="images/krystelle.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>A highly effective blockchain & crypto marketing specialist with years of experience. Expert in social media management and community building. </p>
+        <p key="team_member_5">A highly effective blockchain & crypto marketing specialist with years of experience. Expert in social media management and community building. </p>
         <h5>Krystelle Galano</h5>
       </div>
     </div>
@@ -259,7 +268,7 @@
   <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0 tm-data">
     <div class="img-thumbnail"> <img src="images/bar.png" width="150" height="150" alt="client">
       <div class="caption">
-        <p>A cyber security veteran. Decades of experience as a Security Officer, Hacker, Developer & Software architect.</p>
+        <p key="team_member_6">A cyber security veteran. Decades of experience as a Security Officer, Hacker, Developer & Software architect.</p>
         <h5>Bar Hofesh</h5>
       </div>
     </div>
@@ -274,14 +283,14 @@
   <div class="row FeatLayout">
     <div class="col-md-5 Featimg"> <img src="images/explorer.png" alt="feature" class="img-responsive center-block"></div>
     <div class="col-md-7">
-      <h1>Blockchain explorer</h1>
-      <p class="lead" style="color:white;">View our blockchain explorer</p>
-      <p style="color:white;"><a href="https://explorer.axentro.io" target="_blank" style="color:black;" class="btn btn-warning btn-lg">View Explorer</a></p>
+      <h1 key="blockchain_explorer">Blockchain explorer</h1>
+      <p  key="blockchain_explorer_desc" class="lead" style="color:white;">View our blockchain explorer</p>
+      <p style="color:white;"><a key="blockchain_explorer_button" href="https://explorer.axentro.io" target="_blank" style="color:black;" class="btn btn-warning btn-lg">View Explorer</a></p>
       <ul class="ticklist" style="color:white;">
-        <li>Shows latest blocks and transactions</li>
-        <li>Track wallet balances</li>
-        <li>Search for blocks, transactions & addreses</li>
-        <li>Regular updates with improvements</li>
+        <li key="blockchain_explorer_features_1">Shows latest blocks and transactions</li>
+        <li key="blockchain_explorer_features_2">Track wallet balances</li>
+        <li key="blockchain_explorer_features_3">Search for blocks, transactions & addreses</li>
+        <li key="blockchain_explorer_features_4">Regular updates with improvements</li>
       </ul>
     </div>
   </div>
@@ -293,8 +302,8 @@
 <div class="container" id="community">
   <div class="row PageHead">
    <div class="col-md-12">
-     <h1>Communities</h1>
-      <h3>Join one of our communities on Telegram and get involved!</h3>
+     <h1 key="community">Communities</h1>
+      <h3 key="community_desc">Join one of our communities on Telegram and get involved!</h3>
    </div>
  
    <div class="row">
@@ -373,106 +382,106 @@
  <div class="container" id="ambassador">
   <div class="row PageHead">
    <div class="col-md-12">
-     <h1>Ambassador Program</h1>
+     <h1 key="ambassador">Ambassador Program</h1>
      <br/>
      <div class="col-md-12">
-      <p class="lead">The Axentro community is constantly growing as more people get involved. We are so happy to be building a wonderful community of committed and interesting people.</p>
-      <p class="lead">For members of the community who feel like they have more to offer and are willing to take on extra duties and contribute to Axentro in more ways we have setup the Axentro Ambassador Program. The program has 4 roles of engagement that are all rewarded with AXNT tokens.</p>
+      <p key="ambassador_desc_1" class="lead">The Axentro community is constantly growing as more people get involved. We are so happy to be building a wonderful community of committed and interesting people.</p>
+      <p key="ambassador_desc_2" class="lead">For members of the community who feel like they have more to offer and are willing to take on extra duties and contribute to Axentro in more ways we have setup the Axentro Ambassador Program. The program has 4 roles of engagement that are all rewarded with AXNT tokens.</p>
      </div>
   </div>
 
   <div class="row">
     <div class="col-md-6">
       <br/>
-      <h4>Content Creator</h4>
-      <p>Content creators are people who help to educate the community and to help drive engagement by producing informative and interesting content. This can be in the form of videos, blogs, graphic designs, podcasts or any other kind of appropriate content as decided by the team.</p>
-      <b>Eligibility requirements</b>
+      <h4 key="content_creator">Content Creator</h4>
+      <p key="content_creator_desc">Content creators are people who help to educate the community and to help drive engagement by producing informative and interesting content. This can be in the form of videos, blogs, graphic designs, podcasts or any other kind of appropriate content as decided by the team.</p>
+      <b key="eligibility_requirements">Eligibility requirements</b>
       <ul>
-        <li>Provide minimum of 3 previously published pieces of content</li>
+        <li key="content_creator_eligibility_1">Provide minimum of 3 previously published pieces of content</li>
       </ul>
-      <b>Acceptance criteria</b>
+      <b key="acceptance_criteria">Acceptance criteria</b>
       <ul>
-        <li>Content should be graphical, text, articles, blogs, audio, video, artwork, designs, tools, apps, websites</li>
-        <li>Content should be well presented, high quality and be executed proficiently</li>
-        <li>Content should be up to date and represent the values of the Axentro brand</li>
+        <li key="content_creator_criteria_1">Content should be graphical, text, articles, blogs, audio, video, artwork, designs, tools, apps, websites</li>
+        <li key="content_creator_criteria_2">Content should be well presented, high quality and be executed proficiently</li>
+        <li key="content_creator_criteria_3">Content should be up to date and represent the values of the Axentro brand</li>
       </ul>
-      <b>Rewards</b>
-      <p>Different types of content require different amount of time and effort so we have the following tiers:</p>
+      <b key="rewards">Rewards</b>
+      <p key="content_creator_rewards_desc">Different types of content require different amount of time and effort so we have the following tiers:</p>
       <ul>
-        <li>Tier 1: 20 AXNT per piece (maximum ten pieces)</li>
-        <li>Tier 2: 50 AXNT per piece (maximum six pieces)</li>
-        <li>Tier 3: 80 AXNT per piece (maximum four pieces)</li>
-        <li>paid monthly with monthly cap of 500 AXNT</li>
+        <li key="content_creator_rewards_1">Tier 1: 20 AXNT per piece (maximum ten pieces)</li>
+        <li key="content_creator_rewards_2">Tier 2: 50 AXNT per piece (maximum six pieces)</li>
+        <li key="content_creator_rewards_3">Tier 3: 80 AXNT per piece (maximum four pieces)</li>
+        <li key="content_creator_rewards_4">paid monthly with monthly cap of 500 AXNT</li>
       </ul>
-      <a href="https://form.jotform.com/211091770093047" target="_blank" class="btn btn-primary">Apply as Content Creator </a> 
+      <a  key="content_creator_button" href="https://form.jotform.com/211091770093047" target="_blank" class="btn btn-primary">Apply as Content Creator </a> 
     </div>
     <div class="col-md-6">
       <br/>
-      <h4>Organiser</h4>
-      <p>Organisers aim to drive adoption of the Axentro platform and spread awareness by organising a range of social interaction events. Such as airdrops, competitions, giveaways, meet-ups, demos, discussions, forums and any kind of appropriate event as decided by the team.</p>
-      <b>Eligibility requirements</b>
+      <h4 key="organiser">Organiser</h4>
+      <p key="organiser_desc">Organisers aim to drive adoption of the Axentro platform and spread awareness by organising a range of social interaction events. Such as airdrops, competitions, giveaways, meet-ups, demos, discussions, forums and any kind of appropriate event as decided by the team.</p>
+      <b key="eligibility_requirements">Eligibility requirements</b>
       <ul>
-        <li>Must have operated at least two of the above event types in the past successfully</li>
+        <li key="organiser_eligibility_1">Must have operated at least two of the above event types in the past successfully</li>
       </ul>
-      <b>Acceptance criteria</b>
+      <b key="acceptance_criteria">Acceptance criteria</b>
       <ul>
-        <li>Event should be well planned and organised</li>
+        <li key="organiser_criteria_1">Event should be well planned and organised</li>
       </ul>
-      <b>Rewards</b>
+      <b key="rewards">Rewards</b>
       <ul>
-        <li>40 AXNT for organising a meet-up group or forum</li>
-        <li>60 AXNT for organising an airdrop, competition or giveaway</li>
-        <li>80 AXNT for video recording of an event (extra rewards for interviews)</li>
-        <li>paid monthly with monthly cap of 500 AXNT</li>
+        <li key="organiser_rewards_1">40 AXNT for organising a meet-up group or forum</li>
+        <li key="organiser_rewards_2">60 AXNT for organising an airdrop, competition or giveaway</li>
+        <li key="organiser_rewards_3">80 AXNT for video recording of an event (extra rewards for interviews)</li>
+        <li key="organiser_rewards_4">paid monthly with monthly cap of 500 AXNT</li>
       </ul>
-      <a href="https://form.jotform.com/211092220857046" target="_blank" class="btn btn-primary">Apply as Organizer</a> 
+      <a key="organiser_button" href="https://form.jotform.com/211092220857046" target="_blank" class="btn btn-primary">Apply as Organizer</a> 
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6">
       <br/>
-      <h4>Moderator</h4>
-      <p>Moderators focus on keeping the official online social media channels a great place for the community to get involved across multiple languages. Like our Telegram group and other appropriate platforms.</p>
-      <b>Eligibility requirements</b>
+      <h4 key="moderator">Moderator</h4>
+      <p key="moderator_desc">Moderators focus on keeping the official online social media channels a great place for the community to get involved across multiple languages. Like our Telegram group and other appropriate platforms.</p>
+      <b key="eligibility_requirements">Eligibility requirements</b>
       <ul>
-        <li>Should be an active community member who is recognised as being a positive and friendly contributor</li>
-        <li>An understanding of how a particular social media platform works and participation in daily activities</li>
+        <li key="moderator_eligibility_1">Should be an active community member who is recognised as being a positive and friendly contributor</li>
+        <li key="moderator_eligibility_2">An understanding of how a particular social media platform works and participation in daily activities</li>
       </ul>
-      <b>Acceptance criteria</b>
+      <b key="acceptance_criteria">Acceptance criteria</b>
       <ul>
-        <li>Should provide regular communication and moderation of the chosen social media channel</li>
-        <li>Should maintain a spam-free, friendly atmosphere with prompt warnings or removal of negative elements</li>
+        <li key="moderator_criteria_1">Should provide regular communication and moderation of the chosen social media channel</li>
+        <li key="moderator_criteria_2">Should maintain a spam-free, friendly atmosphere with prompt warnings or removal of negative elements</li>
       </ul>
-      <b>Rewards</b>
+      <b key="rewards">Rewards</b>
       <ul>
-        <li>Small: 300 AXNT per month for full coverage of a small social channel</li>
-        <li>Medium: 400 AXNT per month for full coverage of a medium sized social channel</li>
-        <li>Large: 500 AXNT per month for full coverage of a large sized social channel</li>
-        <li>paid monthly</li>
+        <li key="moderator_rewards_1">Small: 300 AXNT per month for full coverage of a small social channel</li>
+        <li key="moderator_rewards_2">Medium: 400 AXNT per month for full coverage of a medium sized social channel</li>
+        <li key="moderator_rewards_3">Large: 500 AXNT per month for full coverage of a large sized social channel</li>
+        <li key="moderator_rewards_4">paid monthly</li>
       </ul>
-      <a href="https://form.jotform.com/211091468777060" target="_blank" class="btn btn-primary">Apply as Moderator</a> 
+      <a key="moderator_button" href="https://form.jotform.com/211091468777060" target="_blank" class="btn btn-primary">Apply as Moderator</a> 
     </div>
     <div class="col-md-6">
       <br/>
-      <h4>Translator</h4>
-      <p>Expand access to Axentro and the community for non English speakers by translating and sharing content in different languages across any of our content or social media.</p>
-      <b>Eligibility requirements</b>
+      <h4 key="translator">Translator</h4>
+      <p key="translator_desc">Expand access to Axentro and the community for non English speakers by translating and sharing content in different languages across any of our content or social media.</p>
+      <b key="eligibility_requirements">Eligibility requirements</b>
       <ul>
-        <li>Anyone can translate content into any language and no specific translation background is required</li>
-        <li>You must be capable of translating into the target language</li>
-        <li>You must provide some previous work or perform a translation for Axentro to prove your ability</li>
+        <li key="translator_eligibility_1">Anyone can translate content into any language and no specific translation background is required</li>
+        <li key="translator_eligibility_2">You must be capable of translating into the target language</li>
+        <li key="translator_eligibility_3">You must provide some previous work or perform a translation for Axentro to prove your ability</li>
       </ul>
-      <b>Acceptance criteria</b>
+      <b key="acceptance_criteria">Acceptance criteria</b>
       <ul>
-        <li>Should provide a high quality translation</li>
+        <li key="translator_criteria_1">Should provide a high quality translation</li>
       </ul>
-      <b>Rewards</b>
+      <b key="rewards">Rewards</b>
       <ul>
-        <li>0.02 AXNT per word </li>
-        <li>paid monthly with monthly cap of 500 AXNT</li>
+        <li key="translator_rewards_1">0.02 AXNT per word </li>
+        <li key="translator_rewards_2">paid monthly with monthly cap of 500 AXNT</li>
       </ul>
-      <a href="https://form.jotform.com/211092645233045" target="_blank" class="btn btn-primary">Apply as Translator</a> 
+      <a key="translator_button" href="https://form.jotform.com/211092645233045" target="_blank" class="btn btn-primary">Apply as Translator</a> 
     </div>
   </div>
 
@@ -488,14 +497,14 @@
   <div class="row FeatLayout">
     <div class="col-md-3 Featimg"> <img src="images/mobile_wallet.png" alt="feature" class="img-responsive center-block"></div>
     <div class="col-md-7">
-      <h1>Mobile wallet</h1>
-      <p class="lead" style="color:white;">Our mobile wallet is coming soon!</p>
+      <h1 key="mobile_wallet">Mobile wallet</h1>
+      <p key="mobile_wallet_desc" class="lead" style="color:white;">Our mobile wallet is coming soon!</p>
       
       <ul class="ticklist" style="color:white;">
-        <li>Android & IOS</li>
-        <li>Track wallet balances</li>
-        <li>Biometric login</li>
-        <li>Regular updates with improvements</li>
+        <li key="mobile_wallet_features_1">Android & IOS</li>
+        <li key="mobile_wallet_features_2">Track wallet balances</li>
+        <li key="mobile_wallet_features_3">Biometric login</li>
+        <li key="mobile_wallet_features_4">Regular updates with improvements</li>
       </ul>
 
       
@@ -509,8 +518,8 @@
  <div class="container" id="news">
  <div class="row PageHead">
   <div class="col-md-12">
-    <h1>News</h1>
-     <h3>Discover our latest news and announcements via our Twitter feed and other social media</h3>
+    <h1 key="news">News</h1>
+     <h3 key="news_desc">Discover our latest news and announcements via our Twitter feed and other social media</h3>
   </div>
 
   <div class="row">
@@ -519,7 +528,7 @@
         <img src="images/news-btc-light.png" height="90"/>
       </div>
       <div class="col-sm-12">
-        <a target="_blank" class="btn btn-info" href="https://www.newsbtc.com/press-releases/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
+        <a key="read_us_on_newsbtc" target="_blank" class="btn btn-info" href="https://www.newsbtc.com/press-releases/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
          Read us on NewsBTC
         </a>
       </div>
@@ -529,7 +538,7 @@
         <img src="images/coinscribbler.png" height="90"/>
       </div>
       <div class="col-sm-12">
-        <a target="_blank" class="btn btn-success btn-small" href="https://coinscribble.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/51079/general/44/">
+        <a key="read_us_on_coinscribble" target="_blank" class="btn btn-success btn-small" href="https://coinscribble.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/51079/general/44/">
          Read us on CoinScribble
         </a>
       </div>
@@ -539,7 +548,7 @@
         <img src="images/zycrypto.png" height="90"/>
       </div>
       <div class="col-sm-12">
-        <a target="_blank" class="btn btn-info" href="https://zycrypto.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
+        <a key="read_us_on_zycrypto" target="_blank" class="btn btn-info" href="https://zycrypto.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
          Read us on ZyCrypto
         </a>
       </div>
@@ -549,7 +558,7 @@
         <img src="images/coinspeaker.png" height="90"/>
       </div>
       <div class="col-sm-12">
-        <a target="_blank" class="btn btn-success" href="https://www.coinspeaker.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
+        <a key="read_us_on_coinspeaker" target="_blank" class="btn btn-success" href="https://www.coinspeaker.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
          Read us on Coinspeaker
         </a>
       </div>
@@ -562,7 +571,7 @@
         <img src="images/cryptomode.png" height="90"/>
       </div>
       <div class="col-sm-12">
-        <a target="_blank" class="btn btn-info" href="https://cryptomode.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
+        <a key="read_us_on_cryptomode" target="_blank" class="btn btn-info" href="https://cryptomode.com/understanding-axentro-an-original-proof-of-work-blockchain-for-decentralised-apps/">
          Read us on CryptoMode
         </a>
       </div>
@@ -589,27 +598,27 @@
   <div class="container">
     <div class="row footerlinks">
       <div class="col-sm-6 col-md-2">
-        <p>GET STARTED</p>
+        <p key="get_started">GET STARTED</p>
         <ul>
-          <li><a href="https://github.com/Axentro" target="_blank">Github repositories</a></li>
-          <li><a href="https://guide.axentro.io" target="_blank">Documentation</li>
+          <li ><a key="github_repo" href="https://github.com/Axentro" target="_blank">Github repositories</a></li>
+          <li ><a key="guide_footer" href="https://guide.axentro.io" target="_blank">Documentation</a></li>
         </ul>
       </div>
       <div class="col-sm-6 col-md-2">
-        <p>EMAIL US</p>
+        <p key="mail">EMAIL US</p>
         <ul>
           <li><a href="mailto:kingsley@axentro.io" target="_blank">axentro@axentro.io</a></li>
         </ul>
       </div>
       <div class="col-sm-6 col-md-2">
-        <p>LEGAL TERMS</p>
+        <p key="legal_terms">LEGAL TERMS</p>
         <ul>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a key="privacy_policy" href="privacy.html">Privacy Policy</a></li>
+          <li><a key="cookies_policy" href="cookies.html">Cookies Policy</a></li>
         </ul>
       </div>
       <div class="col-sm-6 col-md-4">
-        <p>COMMUNITY</p>
+        <p key="community">COMMUNITY</p>
         <ul>
          <li><a target="_blank" href="https://www.instagram.com/axentro.blockchain/"><i style="color:lightblue;" class="fa fa-instagram"></i> Instagram</a></li>
          <li><a target="_blank" href="https://www.facebook.com/Axentro-100488985226571/"><i style="color:lightblue;" class="fa fa-facebook-square"></i> Facebook</a></li>
@@ -621,9 +630,9 @@
         </ul>
       </div>
       <div class="col-sm-6 col-md-2">
-        <p>Chat Channel</p>
+        <p key="chat_channel">Chat Channel</p>
         <ul>
-          <li> <a href="https://t.me/axentro" class="btn btn-success btn-small">CHAT ON TELEGRAM</a> </li>
+          <li> <a key="telegram_chat_button" href="https://t.me/axentro" class="btn btn-success btn-small">CHAT ON TELEGRAM</a> </li>
         </ul>
       </div>
     </div>
@@ -648,10 +657,10 @@
 
 <script>
             $(function() {
-                $('.nav li a').bind('click',function(event){
+                $('.op').bind('click',function(event){
                     var $anchor2 = $(this).parent();
 				    var $anchor = $(this);
-					$('.nav  li').removeClass('active');
+					$('.opli').removeClass('active');
                     $anchor2.addClass('active');
 					
                     $('html, body').stop().animate({

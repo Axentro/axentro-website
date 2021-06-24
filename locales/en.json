@@ -1,0 +1,165 @@
+{
+"head": 
+    {
+        "title": "Axentro Blockchain Platform"
+    },
+"li": 
+    {
+       
+        "home": "HOME",
+        "features": "FEATURES",
+        "wallet": "WALLET",
+        "explorer": "EXPLORER",
+        "team": "TEAM",
+        "news": "NEWS",
+        "community": "COMMUNITY",
+        "ambassador": "AMBASSADOR",
+        "guide": "GUIDE",
+
+        "fr": "French",
+        "en": "English",
+
+        "github_repo": "Github repositories",
+        "guide_footer": "Documentation",
+        "privacy_policy": "Privacy Policy",
+        "cookies_policy": "Cookies Policy",
+        "telegram_chat_button": "CHAT ON TELEGRAM"
+    },
+"div":
+    {
+        "title": "Axentro Blockchain Platform",
+        "subtitle": "An original, proof of work Blockchain for decentralised Apps",
+        "chat_telegram": "Chat on Telegram",
+        "read_white_paper": "Read our Whitepaper",
+
+
+        "cpu_only_mining": "CPU only mining",
+        "cpu_only_desc": "We want everyone to benefit from mining and not just those who can afford expensive mining rigs.",
+        "distributed_rewards_system": "Distributed rewards system",
+        "distributed_rewards_desc": "Anyone mining anywhere on the network gets a share of the rewards.",
+        "human_readable_addresses": "Human readable addresses",
+        "human_readable_desc": "Optionally aquire a human readable address which is much eaiser to remember and use.",
+
+
+        "features": "Features",
+        "features_desc": "Axentro has several really great features built into the core blockchain",
+        "team": "Team",
+        "team_desc": "We are highly experienced professional developers. The team is distributed across UK, USA, Europe and Israel.",
+        "community": "Communities",
+        "community_desc": "Join one of our communities on Telegram and get involved!",
+        "ambassador": "Ambassador Program",
+        "ambassador_desc_1": "The Axentro community is constantly growing as more people get involved. We are so happy to be building a wonderful community of committed and interesting people.",
+        "ambassador_desc_2": "For members of the community who feel like they have more to offer and are willing to take on extra duties and contribute to Axentro in more ways we have setup the Axentro Ambassador Program. The program has 4 roles of engagement that are all rewarded with AXNT tokens.",
+
+        "decentralised_app_platform":"Decentralised app platform",
+        "decentraised_app_desc": "We want to be the go to platform for developing dApps. We will provide a developer portal, tools and tutorials covering everthing needed to get started building a range of dApps.",
+        "decentralised_app_store": "Decentralised app store",
+        "decentralised_app_desc": "The dApp store will be a one stop location to find new dApps that people have built on the platform. Similar to other popular app stores it will have reviews, comments and ratings.",
+        "integrated_wallet_chat": "Integrated wallet & chat",
+        "integrated_wallet_desc": "Cross platform desktop light wallet with a built in secure chat capability. Secure chat will also permit wallet functionality such as checking balances and sending transactions.",
+        "social_media_integration": "Social media integration",
+        "social_media_desc": "We will provide a set of integrations for well known social media and chat platforms to provide similar but more restricted wallet functionality within the chat.",
+        "payment_hub": "Payments hub",
+        "payment_hub_desc": "This will provide dApp builders with the capability to add shopping baskets, stores and simple payment plugins to the dApp to support taking payment in both the default AXNT token as well as user defined tokens.",
+        "crypto_exchange": "Crypto exchange",
+        "crypto_exchange_desc": "We intend to build a crypto exchange which in phase 1 will facilitate exchange of user defined tokens with the default AXNT token. In later phases more functionality will be added.",
+
+        "desktop_wallet": "Desktop wallet",
+        "desktop_wallet_p": "Download our cross platform desktop wallet",
+        "blockchain_explorer": "Blockchain explorer",
+        "blockchain_explorer_desc": "View our blockchain explorer",
+        "mobile_wallet": "Mobile wallet",
+        "mobile_wallet_desc": "Our mobile wallet is coming soon!",
+        "news": "News",
+        "news_desc": "Discover our latest news and announcements via our Twitter feed and other social media",
+
+        "team_member_1": "Founder & lead developer. Highly skilled with decades of experience. Expert in blockchain technology.",
+        "team_member_2": "Well rounded versitile developer. Team leader, coach and mentor. Invaluable when working across many complex technologies.",
+        "team_member_3": "Creative artist and expert in 2D graphics. Skilled in Animation, Design, and Multimedia with years of experience.",
+        "team_member_4": "System developer, back-end & devops. Master of distributed systems and programming language paradigms.",
+        "team_member_5": "A highly effective blockchain & crypto marketing specialist with years of experience. Expert in social media management and community building.",
+        "team_member_6": "A cyber security veteran. Decades of experience as a Security Officer, Hacker, Developer & Software architect.",
+
+        "eligibility_requirements": "Eligibility requirements",
+        "acceptance_criteria": "Acceptance criteria",
+        "rewards": "Rewards",
+
+        "content_creator": "Content Creator",
+        "content_creator_desc": "Content creators are people who help to educate the community and to help drive engagement by producing informative and interesting content. This can be in the form of videos, blogs, graphic designs, podcasts or any other kind of appropriate content as decided by the team.",
+        "content_creator_button": "Apply as Content Creator",
+        "organiser": "Organiser",
+        "organiser_desc": "Organisers aim to drive adoption of the Axentro platform and spread awareness by organising a range of social interaction events. Such as airdrops, competitions, giveaways, meet-ups, demos, discussions, forums and any kind of appropriate event as decided by the team.",
+        "organiser_button": "Apply as Organizer",
+        "moderator": "Moderator",
+        "moderator_desc": "Moderators focus on keeping the official online social media channels a great place for the community to get involved across multiple languages. Like our Telegram group and other appropriate platforms.",
+        "moderator_button": "Apply as Moderator",
+        "translator": "Translator",
+        "translator_desc": "Expand access to Axentro and the community for non English speakers by translating and sharing content in different languages across any of our content or social media.",
+        "translator_button": "Apply as Translator",
+
+        "read_us_on_newsbtc": "Read us on NewsBTC",
+        "read_us_on_coinscribble": "Read us on CoinScribble",
+        "read_us_on_zycrypto": "Read us on ZyCrypto",
+        "read_us_on_coinspeaker": "Read us on Coinspeaker",
+        "read_us_on_cryptomode": "Read us on CryptoMode",
+
+        "get_started": "GET STARTED",
+        "mail": "EMAIL US",
+        "legal_terms": "LEGAL TERMS",
+        "chat_channel": "Chat Channel"
+        
+    },
+    "p":{
+        "desktop_wallet_button": "Download Wallet",
+        "blockchain_explorer_button": "View Explorer"
+    },
+    "ul":{
+        "wallet_features_1": "Cross platform desktop wallet",
+        "wallet_features_2": "Regular updates with new features",
+        "wallet_features_3": "Get a human readable address",
+        "wallet_features_4": "Send and receive tokens",
+        
+        "blockchain_explorer_features_1": "Shows latest blocks and transactions",
+        "blockchain_explorer_features_2": "Track wallet balances",
+        "blockchain_explorer_features_3": "Search for blocks, transactions & addreses",
+        "blockchain_explorer_features_4": "Regular updates with improvements",
+
+        "mobile_wallet_features_1": "Android & IOS",
+        "mobile_wallet_features_2": "Track wallet balances",
+        "mobile_wallet_features_3": "Biometric login",
+        "mobile_wallet_features_4": "Regular updates with improvements",
+
+        "content_creator_eligibility_1": "Provide minimum of 3 previously published pieces of content",
+        "content_creator_criteria_1": "Content should be graphical, text, articles, blogs, audio, video, artwork, designs, tools, apps, websites",
+        "content_creator_criteria_2": "Content should be well presented, high quality and be executed proficiently",
+        "content_creator_criteria_3": "Content should be up to date and represent the values of the Axentro brand",
+        "content_creator_rewards_desc": "Different types of content require different amount of time and effort so we have the following tiers:",
+        "content_creator_rewards_1": "Tier 1: 20 AXNT per piece (maximum ten pieces)",
+        "content_creator_rewards_2": "Tier 2: 50 AXNT per piece (maximum six pieces)",
+        "content_creator_rewards_3": "Tier 3: 80 AXNT per piece (maximum four pieces)",
+        "content_creator_rewards_4": "paid monthly with monthly cap of 500 AXNT",
+
+        "organiser_eligibility_1": "Must have operated at least two of the above event types in the past successfully",
+        "organiser_criteria_1": "Event should be well planned and organised",
+        "organiser_rewards_1": "40 AXNT for organising a meet-up group or forum",
+        "organiser_rewards_2": "60 AXNT for organising an airdrop, competition or giveaway",
+        "organiser_rewards_3": "80 AXNT for video recording of an event (extra rewards for interviews)",
+        "organiser_rewards_4": "paid monthly with monthly cap of 500 AXNT",
+
+        "moderator_eligibility_1": "Should be an active community member who is recognised as being a positive and friendly contributor",
+        "moderator_eligibility_2": "An understanding of how a particular social media platform works and participation in daily activities",
+        "moderator_criteria_1": "Should provide regular communication and moderation of the chosen social media channel",
+        "moderator_criteria_2": "Should maintain a spam-free, friendly atmosphere with prompt warnings or removal of negative elements",
+        "moderator_rewards_1": "Small: 300 AXNT per month for full coverage of a small social channel",
+        "moderator_rewards_2": "Medium: 400 AXNT per month for full coverage of a medium sized social channel",
+        "moderator_rewards_3": "Large: 500 AXNT per month for full coverage of a large sized social channel",
+        "moderator_rewards_4": "paid monthly",
+
+        "translator_eligibility_1": "Anyone can translate content into any language and no specific translation background is required",
+        "translator_eligibility_2": "You must be capable of translating into the target language",
+        "translator_eligibility_3": "You must provide some previous work or perform a translation for Axentro to prove your ability",
+        "translator_criteria_1": "Should provide a high quality translation",
+        "translator_rewards_1": "0.02 AXNT per word ",
+        "translator_rewards_2": "paid monthly with monthly cap of 500 AXNT"
+     }
+}

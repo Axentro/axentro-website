@@ -1,0 +1,165 @@
+{
+"head": 
+    {
+        "title": "Axentro Blockchain Platform"
+    },
+"li": 
+    {
+       
+        "home": "ACCEUIL",
+        "features": "FONCTIONS",
+        "wallet": "WALLET",
+        "explorer": "EXPLORATEUR",
+        "team": "ÉQUIPE",
+        "news": "NEWS",
+        "community": "COMMUNAUTÉ",
+        "ambassador": "AMBASSADEUR",
+        "guide": "GUIDE",
+
+        "fr": "Francais",
+        "en": "Anglais",
+
+        "github_repo": "Dépôts Github",
+        "guide_footer": "Documentation",
+        "privacy_policy": "Politique de confidentialité",
+        "cookies_policy": "Politique de cookies",
+        "telegram_chat_button": "DISCUTER SUR TELEGRAM"
+    },
+"div":
+    {
+        "title": "Plateforme Axentro Blockchain",
+        "subtitle": "Une blockchain originale et approuvée pour les applications décentralisées",
+        "chat_telegram": "Discuter sur Telegram",
+        "read_white_paper": "Lire le Livre Blanc",
+
+
+        "cpu_only_mining": "Minage CPU",
+        "cpu_only_desc": "Nous voulons que tout le monde profite du minage et pas seulement ceux qui peuvent se permettre des machines coûteuses.",
+        "distributed_rewards_system": "Récompenses distribuées",
+        "distributed_rewards_desc": "Tous les membres qui mine sur le réseau et participe a la blockchain obtiennent une part des récompenses.",
+        "human_readable_addresses": "Adresses courtes",
+        "human_readable_desc": "Acquérir éventuellement une adresse courte en .ax qui est beaucoup plus facile à mémoriser et à utiliser.",
+
+
+        "features": "Fonctionnalités",
+        "features_desc": "Axentro a plusieurs fonctionnalités innovantes et intéressantes intégrées dans ça blockchain",
+        "team": "Équipe",
+        "team_desc": "Nous sommes des développeurs professionnels et très expérimentés. L'équipe est répartie entre le Royaume-Uni, les États-Unis, l'Europe et Israël.",
+        "community": "Communautés",
+        "community_desc": "Rejoignez l'une de nos communautés sur Telegram et impliquez-vous!",
+        "ambassador": "Programme Ambassadeur",
+        "ambassador_desc_1": "La communauté Axentro ne cesse de croître au fure et de plus en plus de personnes s'impliquent. Nous sommes très heureux de bâtir une merveilleuse communauté de personnes engagées.",
+        "ambassador_desc_2": "Pour les membres de la communauté qui ont le sentiment d'avoir plus à offrir et qui sont prêts à assumer des tâches et à contribuer à Axentro de plusieurs façons, nous avons mis en place le programme Axentro Ambassadeur. Le programme a 4 niveaux d'engagement qui sont tous récompensés par des jetons AXNT.",
+
+        "decentralised_app_platform":"Plateforme d'app décentralisées",
+        "decentraised_app_desc": "Nous voulons être la plateforme incontournable pour développer des dApps. Nous fournirons un portail pour les développeurs, des outils et des tutorial couvrant tout ce qui est nécessaire pour commencer à créer des dApps.",
+        "decentralised_app_store": "App Store décentralisé",
+        "decentralised_app_desc": "Le dApp store sera un emplacement unique pour trouver les nouveaux dApp que les gens ont construits sur la plate-forme. Semblable à d'autres magasins d'applications populaires, il aura des critiques, des commentaires et des notes.",
+        "integrated_wallet_chat": "Chat intégrés au portefeuil",
+        "integrated_wallet_desc": "Portefeuille de bureau multiplateforme avec un chat sécurisée intégrée. Le chat sécurisé permettra également des fonctionnalités telles que la vérification du soldes et l'envoi de transactions.",
+        "social_media_integration": "Intégration des réseaux sociaux",
+        "social_media_desc": "Nous fournirons un ensemble d'intégrations pour les réseaux sociaux et les plateformes de chat connus afin de fournir des fonctionnalités de portefeuille similaires mais plus restreintes dans le chat.",
+        "payment_hub": "Hub de paiement",
+        "payment_hub_desc": "Cela fournira aux créateurs de dApp la possibilité d'ajouter des paniers d'achat, des boutiques  et des plug-ins de paiement simples à la dApp pour prendre en charge les paiements à la fois dans le jeton AXNT et dans les jetons créer par l'utilisateur.",
+        "crypto_exchange": "Échange de crypto",
+        "crypto_exchange_desc": "Nous avons l'intention de créer un échangeur de crypto qui, dans la phase 1, facilitera l'échange de jetons crées par l'utilisateur avec le jeton AXNT par défaut. Dans les phases ultérieures, plus de fonctionnalités seront ajoutées.",
+
+        "desktop_wallet": "Portefeuille de bureau",
+        "desktop_wallet_p": "Téléchargez notre portefeuille de bureau multiplateforme",
+        "blockchain_explorer": "Explorateur de blockchain",
+        "blockchain_explorer_desc": "Voir notre explorateur de blockchain",
+        "mobile_wallet": "Portefeuille mobile",
+        "mobile_wallet_desc": "Notre portefeuille mobile arrive bientôt!",
+        "news": "Actualités",
+        "news_desc": "Découvrez nos dernières actualités et annonces sur Twitter et nos autres réseaux sociaux",
+
+        "team_member_1": "Fondateur et développeur principal. Hautement qualifié avec des dizaines d'années d'expérience. Expert en technologie blockchain.",
+        "team_member_2": "Développeur polyvalent. Chef d'équipe, coach et mentor. Une valeur inestimable quand on travaille sur de nombreuses technologies complexes.",
+        "team_member_3": "Artiste créatif et expert en graphisme 2D. Compétent en animation, design et multimédia avec des années d'expérience.",
+        "team_member_4": "Développeur système, back-end et devops. Maîtrise des systèmes distribués et des paradigmes de langage de programmation.",
+        "team_member_5": "Un spécialistes du marketing blockchain et crypto. Experte en gestion des réseaux sociaux et en création de communautés.",
+        "team_member_6": "Un vétéran de la cybersécurité. Des décennies d'expérience en tant que responsable de la sécurité, hacker, développeur et architecte logiciel.",
+
+        "eligibility_requirements": "Conditions d'éligibilité",
+        "acceptance_criteria": "Critères d'acceptation",
+        "rewards": "Récompenses",
+
+        "content_creator": "Créateur de contenu",
+        "content_creator_desc": "Les créateurs de contenu sont des personnes qui aident à former la communauté et à stimuler l'engagement en produisant un contenu informatif et intéressant. Cela peut prendre la forme de vidéos, de blogs, de conceptions graphiques, de podcasts ou de tout autre type de contenu approprié tel que décidé par l'équipe.",
+        "content_creator_button": "Postuler comme créateur",
+        "organiser": "Organisateur",
+        "organiser_desc": "Les organisateurs visent à favoriser l'adoption de la plate-forme Axentro et à sensibiliser le public en organisant une série d'événements sociale. Tels que des Airdrops, des compétitions, des cadeaux, des rencontres, des démos, des discussions, des forums et tout type d'événement approprié tel que décidé par l'équipe.",
+        "organiser_button": "Postuler comme qu'organisateur",
+        "moderator": "Modérateur",
+        "moderator_desc": "Les modérateurs s'efforcent de faire des réseaux sociaux en ligne officiels un endroit idéal pour que la communauté s'implique dans plusieurs langues. Comme notre groupe Telegram et d'autres plateformes appropriées.",
+        "moderator_button": "Postuler comme modérateur",
+        "translator": "Traducteur",
+        "translator_desc": "Élargissez l'accès à Axentro et à la communauté pour les non anglophones en traduisant et en partageant du contenu dans différentes langues de n'importe lequel de nos contenus sur les réseaux sociaux.",
+        "translator_button": "Postuler comme traducteur",
+
+        "read_us_on_newsbtc": "Lire sur NewsBTC",
+        "read_us_on_coinscribble": "Lire sur CoinScribble",
+        "read_us_on_zycrypto": "Lire sur ZyCrypto",
+        "read_us_on_coinspeaker": "Lire sur Coinspeaker",
+        "read_us_on_cryptomode": "Lire sur CryptoMode",
+
+        "get_started": "DÉMARRER",
+        "mail": "EMAIL NOUS",
+        "legal_terms": "MENTIONS LÉGALES",
+        "chat_channel": "CANAL DE CHAT"
+        
+    },
+    "p":{
+        "desktop_wallet_button": "Téléchargez le Portefeuille",
+        "blockchain_explorer_button": "Voir l'explorateur"
+    },
+    "ul":{
+        "wallet_features_1": "Portefeuille de bureau multiplateforme (Win, Linux, Osx)",
+        "wallet_features_2": "Mises à jour régulières avec de nouvelles fonctions",
+        "wallet_features_3": "Obtenez une adresse en .ax lisible par un humain",
+        "wallet_features_4": "Envoyer et recevoir des jetons AXNT ou crées",
+        
+        "blockchain_explorer_features_1": "Voir les derniers blocs et transactions",
+        "blockchain_explorer_features_3": "Rechercher des blocs, des transactions et des adresses",
+        "blockchain_explorer_features_2": "Suivre le soldes du portefeuille",
+        "blockchain_explorer_features_4": "Mises à jour régulières avec des améliorations",
+
+        "mobile_wallet_features_1": "Android & IOS",
+        "mobile_wallet_features_2": "Suivre le solde du portefeuille",
+        "mobile_wallet_features_3": "Connexion biométrique",
+        "mobile_wallet_features_4": "Mises à jour régulières avec améliorations",
+
+        "content_creator_eligibility_1": "Fournir au moins 3 éléments de contenu déjà publiés",
+        "content_creator_criteria_1": "Le contenu doit être de type graphique, texte, articles, blogs, audio, vidéo, illustrations, applications, sites Web",
+        "content_creator_criteria_2": "Le contenu doit être bien présenté, de haute qualité et exécuté de manière professionnelle",
+        "content_creator_criteria_3": "Le contenu doit être à jour et représenter les valeurs de la marque Axentro",
+        "content_creator_rewards_desc": "Différents types de contenu nécessitent différents actions, temps et efforts, nous avons donc les niveaux suivants:",
+        "content_creator_rewards_1": "Niveau 1: 20 AXNT par pièce (maximum dix pièces)",
+        "content_creator_rewards_2": "Niveau 2: 50 AXNT par pièce (maximum six pièces)",
+        "content_creator_rewards_3": "Niveau 3: 80 AXNT par pièce (maximum quatre pièces)",
+        "content_creator_rewards_4": "payé mensuellement avec un plafond de 500 AXNT",
+
+        "organiser_eligibility_1": "Vous devez avoir exécuté avec succès au moins deux des types d'événements ci-dessus dans le passé",
+        "organiser_criteria_1": "L'événement doit être bien planifié et organisé",
+        "organiser_rewards_1": "40 AXNT pour l'organisation d'un groupe de rencontre ou d'un forum",
+        "organiser_rewards_2": "60 AXNT pour l'organisation d'un Airdrop, d'une compétition ou d'un cadeau",
+        "organiser_rewards_3": "80 AXNT pour l'enregistrement d'un événement (récompenses supplémentaires pour les interviews)",
+        "organiser_rewards_4": "payé mensuellement avec un plafond de 500 AXNT",
+
+        "moderator_eligibility_1": "Vous devez être un membre actif de la communauté et reconnu comme un contributeur positif et amical",
+        "moderator_eligibility_2": "Vous devez comprendre le fonctionnement d'une plateforme de réseaux sociaux et participé aux activités quotidiennes",
+        "moderator_criteria_1": "Vous devez fournir une communication et une modération régulières sur le réseaux social choisi",
+        "moderator_criteria_2": "Vous devez maintenir une ambiance conviviale et sans spam avec des avertissements rapides et la suppression des éléments négatifs",
+        "moderator_rewards_1": "Petite: 300 AXNT par mois pour une gestion complète d'un petit réseaux",
+        "moderator_rewards_2": "Moyenne: 400 AXNT par mois pour une gestion complète d'un réseaux de taille moyenne",
+        "moderator_rewards_3": "Large: 500 AXNT par mois pour une gestion complète d'un réseaux de grande taille",
+        "moderator_rewards_4": "payé mensuellement",
+
+        "translator_eligibility_1": "Tout le monde peut traduire du contenu dans n'importe quelle langue et aucune experience spécifique n'est requise",
+        "translator_eligibility_2": "Vous devez être capable de traduire dans la langue cible",
+        "translator_eligibility_3": "Vous devez fournir une preuve de vos traductions ou en effectuer une pour Axentro pour prouver votre capacité",
+        "translator_criteria_1": "Vous devrait fournir une traduction de haute qualité",
+        "translator_rewards_1": "0,02 AXNT par mot traduit",
+        "translator_rewards_2": "payé mensuellement avec un plafond 500 AXNT"
+     }
+}
