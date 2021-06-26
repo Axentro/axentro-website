@@ -803,3 +803,12 @@ margin-bottom: -20px;
     float: left;
     margin: 0 6px 0 0;
 }
+.ua:before{
+	content: "";
+    display: block;
+    background: url("../images/ua.svg") no-repeat;
+    width: 30px;
+    height: 16px;
+    float: left;
+    margin: 0 6px 0 0;
+}
