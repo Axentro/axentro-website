@@ -1,0 +1,168 @@
+{
+    "head": 
+        {
+            "title": "Axentro 区块链平台"
+        },
+    "li": 
+        {
+           
+            "home": "主页",
+            "features": "特性",
+            "wallet": "钱包",
+            "explorer": "浏览器",
+            "team": "团队",
+            "news": "新闻",
+            "community": "社区",
+            "ambassador": "推广",
+            "guide": "引导",
+    
+            "fr": "法语",
+            "en": "英语",
+            "ua": "乌克兰语",
+            "ru": "俄语",
+            "zh-CN": "中文",
+    
+            "github_repo": "Github 存储库",
+            "guide_footer": "引导文档",
+            "privacy_policy": "隐私政策",
+            "cookies_policy": "Cookie 政策",
+            "telegram_chat_button": "在Telegram中讨论"
+        },
+    "div":
+        {
+            "title": "Axentro 区块链平台",
+            "subtitle": "一个原创的，用于去中心化应用程序的原始工作证明区块链",
+            "chat_telegram": "在Telegram中讨论",
+            "read_white_paper": "阅读我们的白皮书",
+    
+    
+            "cpu_only_mining": "仅CPU挖矿",
+            "cpu_only_desc": "我们希望每个人都能从挖矿中受益，而不仅仅是那些负担得起昂贵挖矿设备的人。",
+            "distributed_rewards_system": "分布式奖励系统",
+            "distributed_rewards_desc": "在网络上任何地方挖矿的人都可以分享奖励。",
+            "human_readable_addresses": "易于识读的地址",
+            "human_readable_desc": "可选地获取一个易于适读的地址，它更容易记住和使用。",
+    
+    
+            "features": "特性",
+            "features_desc": "Axentro 在核心区块链中内置了几个非常棒的功能",
+            "team": "团队",
+            "team_desc": "我们是经验丰富的专业开发人员，来自英国、美国、欧洲和以色列等地区。",
+            "community": "社区",
+            "community_desc": "加入我们的 Telegram 社区之一并参与其中！",
+            "ambassador": "大使计划",
+            "ambassador_desc_1": "随着越来越多的人参与，Axentro 社区也在不断壮大。 我们很高兴能够建立一个由忠诚而有趣的人组成的美好社区。",
+            "ambassador_desc_2": "对于社区成员，他们觉得自己愿意承担额外职责并以更多方式为 Axentro 做出贡献，因此我们设置了 Axentro 大使计划。 该计划有 4 个参与角色，所有角色都获得 AXNT 代币奖励。",
+    
+            "decentralised_app_platform":"去中心化应用平台",
+            "decentraised_app_desc": "我们希望成为开发 dApp 的首选平台。 我们将提供一个开发者门户、工具和教程，涵盖开始构建一系列 dApp 所需的一切。",
+            "decentralised_app_store": "去中心化应用商店",
+            "decentralised_app_desc": "dApp 商店将是寻找人们在平台上构建的新 dApp 的一站式位置。 与其他流行的应用程序商店类似，它将有评论、评论和评级。",
+            "integrated_wallet_chat": "集成钱包和聊天",
+            "integrated_wallet_desc": "具有内置安全聊天功能的跨平台桌面轻钱包。 安全聊天还将允许钱包功能，例如检查余额和发送交易。",
+            "social_media_integration": "社交媒体整合",
+            "social_media_desc": "我们将为知名社交媒体和聊天平台提供一组集成，以在聊天中提供类似但更受限制的钱包功能。",
+            "payment_hub": "支付中心",
+            "payment_hub_desc": "这将为 dApp 构建者提供向 dApp 添加购物篮、商店和简单支付插件的能力，以支持使用默认的 AXNT 代币和用户定义的代币进行支付。",
+            "crypto_exchange": "加密交易所",
+            "crypto_exchange_desc": "我们打算建立一个加密交易所，在第 1 阶段将促进用户定义的代币与默认 AXNT 代币的交易。 在以后的阶段，将添加更多功能。",
+    
+            "desktop_wallet": "桌面钱包",
+            "desktop_wallet_p": "下载跨平台桌面钱包",
+            "blockchain_explorer": "区块链浏览器",
+            "blockchain_explorer_desc": "查看区块链浏览器",
+            "mobile_wallet": "手机钱包",
+            "mobile_wallet_desc": "手机钱包即将推出！",
+            "news": "新闻",
+            "news_desc": "通过我们的 Twitter 提要和其他社交媒体了解最新消息和公告",
+    
+            "team_member_1": "创始人兼首席开发人员。 拥有数十年经验的高技能人才。 区块链技术专家。",
+            "team_member_2": "全面的多功能开发人员。 团队负责人、教练和导师。 擅于处理各类复杂的技术问题。",
+            "team_member_3": "创意艺术家和2D图形专家。擅长动画、设计和多媒体，有多年的经验。",
+            "team_member_4": "系统开发人员、后端和 DevOps。 掌握分布式系统和编程语言范式。",
+            "team_member_5": "具有多年经验的高效区块链和加密营销专家。 社交媒体管理和社区建设专家。",
+            "team_member_6": "网络安全资深人士。 数十年担任安全官、极客、开发人员和软件架构师的经验。",
+    
+            "eligibility_requirements": "资格要求",
+            "acceptance_criteria": "验收标准",
+            "rewards": "奖励",
+    
+            "content_creator": "内容创建者",
+            "content_creator_desc": "内容创建者是帮助教育社区并通过制作信息丰富且有趣的内容来帮助推动参与的人。 这可以是视频、博客、图形设计、播客或任何其他由团队决定的适当内容的形式。",
+            "content_creator_button": "申请成为内容创作者",
+            "organiser": "组织者",
+            "organiser_desc": "组织者旨在通过组织一系列社交互动活动来推动 Axentro 平台的采用并传播意识。 例如空投、比赛、赠品、聚会、演示、讨论、论坛以及团队决定的任何类型的适当活动。",
+            "organiser_button": "申请成为组织者",
+            "moderator": "版主",
+            "moderator_desc": "版主专注于让官方在线社交媒体渠道成为社区参与多种语言的好地方。 就像我们的 Telegram 小组和其他合适的平台一样。",
+            "moderator_button": "申请成为版主",
+            "translator": "翻译",
+            "translator_desc": "通过将我们的任何内容或社交媒体上发布内容翻译为不同语言，便于非英语人士的访问。",
+            "translator_button": "申请成为翻译",
+    
+            "read_us_on_newsbtc": "在 NewsBTC 上阅读我们",
+            "read_us_on_coinscribble": "在 CoinScribble 上阅读我们",
+            "read_us_on_zycrypto": "在 ZyCrypto 上阅读我们",
+            "read_us_on_coinspeaker": "在 Coinspeaker 上阅读我们",
+            "read_us_on_cryptomode": "在 CryptoMode 上阅读我们",
+    
+            "get_started": "开始",
+            "mail": "电子邮件",
+            "legal_terms": "法律条款",
+            "chat_channel": "聊天频道"
+            
+        },
+        "p":{
+            "desktop_wallet_button": "下载钱包",
+            "blockchain_explorer_button": "查看区块链浏览器"
+        },
+        "ul":{
+            "wallet_features_1": "跨平台桌面钱包",
+            "wallet_features_2": "定期更新新功能",
+            "wallet_features_3": "获取易识读的地址",
+            "wallet_features_4": "发送和接收代币",
+            
+            "blockchain_explorer_features_1": "显示最新的区块和交易",
+            "blockchain_explorer_features_2": "追踪钱包余额",
+            "blockchain_explorer_features_3": "搜索区块、交易和地址",
+            "blockchain_explorer_features_4": "定期更新和改进",
+    
+            "mobile_wallet_features_1": "Android & IOS",
+            "mobile_wallet_features_2": "追踪钱包余额",
+            "mobile_wallet_features_3": "生物识别登录",
+            "mobile_wallet_features_4": "定期更新和改进",
+    
+            "content_creator_eligibility_1": "提供至少 3 条以前发布的内容",
+            "content_creator_criteria_1": "内容应该是图片、文本、文章、博客、音频、视频、艺术品、设计、工具、应用程序、网站",
+            "content_creator_criteria_2": "内容应陈述恰当、高质量且执行得当",
+            "content_creator_criteria_3": "内容应该是最新的并代表 Axentro 品牌的价值",
+            "content_creator_rewards_desc": "不同类型的内容需要不同的时间和精力，因此我们有以下激励：",
+            "content_creator_rewards_1": "1 级: 20 AXNT 每条 (最多10条)",
+            "content_creator_rewards_2": "2 级: 50 AXNT 每条 (最多6条)",
+            "content_creator_rewards_3": "3 级: 80 AXNT 每条 (最多4条)",
+            "content_creator_rewards_4": "按月支付，每月上限为 500 AXNT",
+    
+            "organiser_eligibility_1": "必须在过去成功操作过上述事件类型中的至少两种",
+            "organiser_criteria_1": "精心策划和组织活动",
+            "organiser_rewards_1": "40 AXNT 用于组织聚会或论坛",
+            "organiser_rewards_2": "60 AXNT 用于组织空投、比赛或赠品",
+            "organiser_rewards_3": "80 AXNT 用于活动的视频录制（采访额外奖励）",
+            "organiser_rewards_4": "按月支付，每月上限为 500 AXNT",
+    
+            "moderator_eligibility_1": "应该是一个活跃的社区成员，被公认为积极和友好的贡献者",
+            "moderator_eligibility_2": "了解特定社交媒体平台的运作方式和参与日常活动",
+            "moderator_criteria_1": "应提供所选社交媒体渠道的定期沟通和审核",
+            "moderator_criteria_2": "应保持无垃圾邮件、友好的氛围，并及时发出警告或消除负面内容",
+            "moderator_rewards_1": "小型：每月 300 AXNT 全面覆盖小型社交渠道",
+            "moderator_rewards_2": "中型：每月 400 AXNT 全面覆盖中型社交渠道",
+            "moderator_rewards_3": "大型：每月 500 AXNT 全面覆盖大型社交渠道",
+            "moderator_rewards_4": "按月支付",
+    
+            "translator_eligibility_1": "任何人都可以将内容翻译成任何语言，不需要特定的翻译背景",
+            "translator_eligibility_2": "您必须有能力翻译成目标语言",
+            "translator_eligibility_3": "您必须提供一些以前的工作或为 Axentro 进行翻译以证明您的能力",
+            "translator_criteria_1": "需要提供高质量的翻译",
+            "translator_rewards_1": "每字 0.02 AXNT ",
+            "translator_rewards_2": "按月支付，每月上限为 500 AXNT"
+         }
+    }
