@@ -20,6 +20,7 @@
         "en": "English",
         "ua": "Ukrainian",
         "ru": "Russian",
+        "zh-CN": "Chinese",
 
         "github_repo": "Github repositories",
         "guide_footer": "Documentation",
@@ -108,8 +109,9 @@
         "get_started": "GET STARTED",
         "mail": "EMAIL US",
         "legal_terms": "LEGAL TERMS",
-        "chat_channel": "Chat Channel"
+        "chat_channel": "Chat Channel",
         
+        "content_creator_rewards_desc": "Different types of content require different amount of time and effort so we have the following tiers:"
     },
     "p":{
         "desktop_wallet_button": "Download Wallet",
@@ -135,7 +137,6 @@
         "content_creator_criteria_1": "Content should be graphical, text, articles, blogs, audio, video, artwork, designs, tools, apps, websites",
         "content_creator_criteria_2": "Content should be well presented, high quality and be executed proficiently",
         "content_creator_criteria_3": "Content should be up to date and represent the values of the Axentro brand",
-        "content_creator_rewards_desc": "Different types of content require different amount of time and effort so we have the following tiers:",
         "content_creator_rewards_1": "Tier 1: 20 AXNT per piece (maximum ten pieces)",
         "content_creator_rewards_2": "Tier 2: 50 AXNT per piece (maximum six pieces)",
         "content_creator_rewards_3": "Tier 3: 80 AXNT per piece (maximum four pieces)",

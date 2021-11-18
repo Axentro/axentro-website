@@ -20,6 +20,7 @@
         "en": "Anglais",
         "ua": "Ukrainien",
         "ru": "Russe",
+        "zh-CN": "Chinois",
 
         "github_repo": "Dépôts Github",
         "guide_footer": "Documentation",
@@ -108,8 +109,10 @@
         "get_started": "DÉMARRER",
         "mail": "EMAIL NOUS",
         "legal_terms": "MENTIONS LÉGALES",
-        "chat_channel": "CANAL DE CHAT"
+        "chat_channel": "CANAL DE CHAT",
+
         
+        "content_creator_rewards_desc": "Différents types de contenu nécessitent différents actions, temps et efforts, nous avons donc les niveaux suivants:"
     },
     "p":{
         "desktop_wallet_button": "Téléchargez le Portefeuille",
@@ -135,7 +138,6 @@
         "content_creator_criteria_1": "Le contenu doit être de type graphique, texte, articles, blogs, audio, vidéo, illustrations, applications, sites Web",
         "content_creator_criteria_2": "Le contenu doit être bien présenté, de haute qualité et exécuté de manière professionnelle",
         "content_creator_criteria_3": "Le contenu doit être à jour et représenter les valeurs de la marque Axentro",
-        "content_creator_rewards_desc": "Différents types de contenu nécessitent différents actions, temps et efforts, nous avons donc les niveaux suivants:",
         "content_creator_rewards_1": "Niveau 1: 20 AXNT par pièce (maximum dix pièces)",
         "content_creator_rewards_2": "Niveau 2: 50 AXNT par pièce (maximum six pièces)",
         "content_creator_rewards_3": "Niveau 3: 80 AXNT par pièce (maximum quatre pièces)",

@@ -109,8 +109,9 @@
             "get_started": "开始",
             "mail": "电子邮件",
             "legal_terms": "法律条款",
-            "chat_channel": "聊天频道"
+            "chat_channel": "聊天频道",
             
+            "content_creator_rewards_desc": "不同类型的内容需要不同的时间和精力，因此我们有以下奖励："
         },
         "p":{
             "desktop_wallet_button": "下载钱包",
@@ -136,7 +137,6 @@
             "content_creator_criteria_1": "内容应该是图片、文本、文章、博客、音频、视频、艺术品、设计、工具、应用程序、网站",
             "content_creator_criteria_2": "内容应陈述恰当、高质量且执行得当",
             "content_creator_criteria_3": "内容应该是最新的并代表 Axentro 品牌的价值",
-            "content_creator_rewards_desc": "不同类型的内容需要不同的时间和精力，因此我们有以下激励：",
             "content_creator_rewards_1": "1 级: 20 AXNT 每条 (最多10条)",
             "content_creator_rewards_2": "2 级: 50 AXNT 每条 (最多6条)",
             "content_creator_rewards_3": "3 级: 80 AXNT 每条 (最多4条)",
